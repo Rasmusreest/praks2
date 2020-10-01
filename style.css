@@ -60,6 +60,23 @@ nav {
   padding: 7px 0;
 }
 
+.hamburger {
+  display: none;
+}
+
+.line {
+  height: 4px;
+  width: 100%;
+  background-color: #ac8e68;
+  margin-bottom: 4px;
+}
+
+.hamburger-icon {
+  width: 30px;
+  margin: 10px auto 0 auto;
+  cursor: pointer;
+  display: none;
+}
 ul {
   padding-left: 0;
   list-style: none;
@@ -112,6 +129,11 @@ table {
   font-weight: bold;
   text-align: right;
   padding-right: 5px;
+}
+
+iframe {
+  height: 450px;
+  width: 100%;
 }
 
 /* ---GALLERY --- */
